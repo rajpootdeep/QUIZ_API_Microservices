@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size:xx-large;
+}
+title{
+    color: brown;
+}
+.menu{
+    
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 17px;
+   font-size: x-large;
+    
+}
+.b{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.submitinput{
+    width: 100;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+.submithover{
+    background-color: #a08845;
+}
+
+.popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }

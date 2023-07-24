@@ -1,0 +1,85 @@
+/* listbenestylesheet.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.header {
+  background-color: green;
+  padding: 1px; /* Reduce the padding further to make the green strip slimmer */
+  text-align: center;
+}
+
+.header-container {
+  max-width: 250px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.form-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form-section:last-child {
+  margin-bottom: 0; /* Remove margin-bottom for the last form-section */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+select,
+input[type="submit"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+select:focus,
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
