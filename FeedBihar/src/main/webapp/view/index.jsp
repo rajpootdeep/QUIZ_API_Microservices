@@ -14,12 +14,10 @@
     </div>
     
     <div class="menu">
-        <a href="index.jsp">Home</a>  
+        <a href="/">Home</a>  
         <a href="aboutfeedbihar">About</a>
-                <a href="addBenePage">Add Beneficiary</a>
-                <a href="beneUpdatePage">Update Beneficiary</a>
-                <a href="listOptionPage">List Beneficiary</a>
-            
+                <a href="beneficiary">Beneficiary</a>
+            <a href="memberpage">Member</a>
     </div>
 
    <!-- Adding multiple images and main content in the same line -->
