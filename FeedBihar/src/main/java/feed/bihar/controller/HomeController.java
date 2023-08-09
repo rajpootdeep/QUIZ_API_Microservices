@@ -17,6 +17,7 @@ import feed.bihar.dao.BeneRepo;
 import feed.bihar.dao.MemberRepo;
 import feed.bihar.exceptions.bene.NoSuchBeneExist;
 import feed.bihar.repository.Bene;
+import feed.bihar.repository.FoodByMember;
 import feed.bihar.repository.Member;
 
 @Controller
@@ -114,4 +115,6 @@ public String benficiaryPage() {
 		m.addAttribute("ms", "Database hitted successfully");
 	}
 
+	
+	
 }

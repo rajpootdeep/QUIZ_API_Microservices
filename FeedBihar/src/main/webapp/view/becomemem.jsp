@@ -137,21 +137,28 @@
                 <h4>${msg}</h4>
                 <label for="hname">Hotel Name:</label>
                 <input type="text" id="hname" name="hname" required>
+
                 <label for="mname">Manager/Owner Name:</label>
                 <input type="text" id="mname" name="mname" required>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+
                 <label for="addr">Address:</label>
                 <input type="text" id="addr" name="addr" required>
+
                 <label for="status">Status:</label>
                 <select name="status" id="status" required>
                     <option value="Active" selected>Active</option>
                     <option value="Inactive">Inactive</option>
                 </select>
+
                 <label for="mobile">Mobile:</label>
-                <input type="number" id="mobile" name="mobile" required>
+                <input type="tel" id="mobile" name="mobile" required>
+
                 <label for="pass">Password:</label>
                 <input type="password" id="pass" name="pass" required>
+                
                 <input type="submit" value="Submit">
             </form>
         </div>

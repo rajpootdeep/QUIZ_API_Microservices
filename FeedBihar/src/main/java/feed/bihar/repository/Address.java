@@ -1,8 +1,8 @@
 package feed.bihar.repository;
 
-import jakarta.persistence.Embeddable;
 
-@Embeddable
+
+
 public class Address {
 
 	private String Line1;

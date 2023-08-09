@@ -2,20 +2,24 @@ package feed.bihar.repository;
 
 import java.util.Date;
 
-import org.hibernate.annotations.CurrentTimestamp;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import org.hibernate.annotations.CreationTimestamp;
+
+
 @Entity
 public class Member {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column(nullable = false, updatable = false)
-	@CurrentTimestamp
+	//@CurrentTimestamp
+	//@CreationTimestamp
+	@CreationTimestamp
 	private Date edate;
 	private String hname;
 	private String mname;
